@@ -1,21 +1,22 @@
+:root {
+   --color-1: #23424a;
+   --color-2: #f2f2f2;
+}
+
 * {
    box-sizing: border-box;
 }
 
 body {
    margin: 0;
+   font-family: "sans-serif";
 }
 
-.parent {
-   background-color: #23424a;
-   padding: 50px;
-   /* width: 900px; */
+.container {
+   background: var(--color-1);
+   color: var(--color-2);
+   width: 80%;
    margin: 0 auto;
-   width: 50%;
-}
-
-.child {
-   background-color: #38cfd9;
-   /* height: 250px; */
-   width: 90%;
+   /* height: 300px; */
+   padding: 2em;
 }
